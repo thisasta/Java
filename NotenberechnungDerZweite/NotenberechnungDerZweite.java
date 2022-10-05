@@ -5,6 +5,7 @@ public class NotenberechnungDerZweite{
     int max;
     int avd;
     int per;
+    int marks;
     
     public void input() {
 
@@ -19,6 +20,12 @@ public class NotenberechnungDerZweite{
     public void process() {
 
         per = avd / max * 100;
+
+        if(per > 95) {
+
+            marks = 15;
+
+        }
 
     }
 

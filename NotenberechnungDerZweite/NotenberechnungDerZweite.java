@@ -11,9 +11,9 @@ public class NotenberechnungDerZweite{
     public void input() {
 
         Scanner scn = new Scanner(System.in);
-        System.out.println("maximale Pukteanzahl: ");
+        System.out.print("maximale Pukteanzahl: ");
         max = scn.nextDouble();
-        System.out.println("erreichte Punkteanzahl: ");
+        System.out.print("\nerreichte Punkteanzahl: ");
         avd = scn.nextDouble();
 
         scn.close();
@@ -119,5 +119,5 @@ public class NotenberechnungDerZweite{
         nb.output();
 
     }
-    
+
 }

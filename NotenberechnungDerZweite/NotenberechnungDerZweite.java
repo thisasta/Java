@@ -24,7 +24,7 @@ public class NotenberechnungDerZweite{
 
         per = avd / max * 100;
 
-        if(per >= 95) {
+        if(per >= 95 && per <= 100) {
 
             marks = 15;
 

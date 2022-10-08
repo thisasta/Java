@@ -1,4 +1,3 @@
-import java.nio.DoubleBuffer;
 import java.util.Scanner;
 
 public class Grundrechenarten {

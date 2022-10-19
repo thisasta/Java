@@ -15,6 +15,7 @@ public class BodyMassIndex {
         weight = sc.nextDouble();
         System.out.print("\nBitte geben Sie Ihre Körpergröße ein: ");
         height = sc.nextDouble();
+        sc.close();
 
     }
 
